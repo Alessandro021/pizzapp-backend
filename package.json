@@ -5,7 +5,7 @@
   "main": "server.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-dev --transpile-only src/server.ts",
+    "start": "ts-node-dev --transpile-only src/server.ts",
     "build": "tsc",
     "comment": " esse e o comando para rodar o servidor npm run dev ou yarn dev"
   },
