@@ -2,10 +2,12 @@
   "name": "pizzapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "/src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev --transpile-only src/server.ts",
+    "build": "tsc",
+    "start": "node src/server.js",
     "comment": " esse e o comando para rodar o servidor npm run dev ou yarn dev"
   },
   "author": "Alessandro da Mata",
