@@ -28,4 +28,4 @@ app.use(( err: Error, req: Request, res: Response, next: NextFunction ) => {
     })
 })
 
-app.listen(process.env.PORT, () => console.log("Servidor iniciado!"))
+app.listen(process.env.PORT || 3000, () => console.log("Servidor iniciado!"))
